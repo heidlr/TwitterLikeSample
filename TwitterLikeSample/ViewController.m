@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bgimage.png"]
+                                                 forBarPosition:UIBarPositionTopAttached
+                                                  barMetrics:UIBarMetricsDefault];
+    
+    UIVisualEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+    effectView.frame = self.navigationController.navigationBar.bounds;
+    
+    [self.navigationController.navigationBar addSubview:effectView];
 }
 
 - (void)didReceiveMemoryWarning {

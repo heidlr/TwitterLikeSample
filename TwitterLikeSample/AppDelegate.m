@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSMutableArray *array1 = [[NSMutableArray alloc] initWithArray:@[@"A",@"B",@"C"]];
+    NSLog(@"A of array1 : %p",array1[0]);
+    
+    NSMutableArray *array2 = [[NSMutableArray alloc] initWithArray:array1];
+    NSLog(@"A of array2 : %p",array2[0]);
+    NSLog(@"first of array2 : %@",array2[0]);
+    
+    [array2 removeObject:array2[0]];
+    NSLog(@"first of array1 : %@",array1[0]);
+    NSLog(@"first of array2 : %@",array2[0]);
+    
     return YES;
 }
 

@@ -14,6 +14,7 @@
 		9B50EA361A9710830071791D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B50EA351A9710830071791D /* Images.xcassets */; };
 		9B50EA391A9710830071791D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B50EA371A9710830071791D /* LaunchScreen.xib */; };
 		9B50EA451A9710830071791D /* TwitterLikeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B50EA441A9710830071791D /* TwitterLikeSampleTests.m */; };
+		9BAA962B1A97394800F80E23 /* bgimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA962A1A97394800F80E23 /* bgimage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		9B50EA3E1A9710830071791D /* TwitterLikeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterLikeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B50EA431A9710830071791D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B50EA441A9710830071791D /* TwitterLikeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterLikeSampleTests.m; sourceTree = "<group>"; };
+		9BAA962A1A97394800F80E23 /* bgimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgimage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		9B50EA281A9710830071791D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BAA962A1A97394800F80E23 /* bgimage.png */,
 				9B50EA291A9710830071791D /* Info.plist */,
 				9B50EA2A1A9710830071791D /* main.m */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				9B50EA341A9710830071791D /* Main.storyboard in Resources */,
 				9B50EA391A9710830071791D /* LaunchScreen.xib in Resources */,
+				9BAA962B1A97394800F80E23 /* bgimage.png in Resources */,
 				9B50EA361A9710830071791D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				9B50EA4A1A9710830071791D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B50EA4B1A9710830071791D /* Build configuration list for PBXNativeTarget "TwitterLikeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				9B50EA4D1A9710830071791D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
